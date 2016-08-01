@@ -11,7 +11,7 @@ public class DiscreteFourierTransform {
         int amountPossible = N/this.CHUNK_SIZE;
         Complex[][] transformedBits = new Complex[amountPossible][];
 
-        "HUMBUG"
+
         for(int i = 0; i < amountPossible; i++){
             Complex[] complex = new Complex[this.CHUNK_SIZE];
             for(int j = 0; j < this.CHUNK_SIZE;j++){
